@@ -17,6 +17,7 @@ const SignUp = () => {
 
   const styles = {
     signupContainer: {
+      fontFamily : '"Afacad Flux",sans-serif',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -45,6 +46,7 @@ const SignUp = () => {
       border: 'none',
       borderRadius: '4px',
       width: '100%',
+      fontFamily : '"Afacad Flux",sans-serif',
     },
     button: {
       padding: '10px',

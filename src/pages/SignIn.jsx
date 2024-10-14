@@ -27,6 +27,7 @@ const SignIn = ({ setIsSignedIn }) => {
 
   const styles = {
     signinContainer: {
+      fontFamily : '"Afacad Flux",sans-serif',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -44,6 +45,7 @@ const SignIn = ({ setIsSignedIn }) => {
       alignItems: 'center',
       width: '90%',
       maxWidth: '400px',
+      marginTop:'10px',
     },
     h2: {
       color: '#fff',
@@ -55,6 +57,8 @@ const SignIn = ({ setIsSignedIn }) => {
       border: 'none',
       borderRadius: '4px',
       width: '100%',
+      fontFamily : '"Afacad Flux",sans-serif',
+      
     },
     button: {
       padding: '10px',
@@ -69,8 +73,9 @@ const SignIn = ({ setIsSignedIn }) => {
 
   return (
     <div style={styles.signinContainer}>
-      <img src={Logo} alt="logo" />
+      
       <div style={styles.formContainer}>
+      <img src={Logo} alt="logo" />
         <h2 style={styles.h2}>Sign In</h2>
         <input
           style={styles.input}

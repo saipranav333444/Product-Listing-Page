@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Skills from './pages/Skills'
-import Layout from './pages/Layout'
+
 import About from './pages/About'
 
 const App = () => {
@@ -26,8 +26,7 @@ const App = () => {
         <Route path="/about" element={isSignedIn ? <About /> : <Navigate to="/signin" />} />
         <Route path="/stories" element={isSignedIn ? <About /> : <Navigate to="/signin" />} />
         <Route path="/contact" element={isSignedIn ? <About /> : <Navigate to="/signin" />} />
-        <Route path="/layout" element={isSignedIn ? <Layout /> : <Navigate to="/signin" />} />
-        {/* Add other routes as necessary */}
+        
       </Routes>
     </Router>
   );
