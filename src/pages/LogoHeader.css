@@ -1,0 +1,51 @@
+/* LogoHeader.css */
+
+.logo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between logo, text, and icons */
+  padding: 10px; /* Optional padding for the header */
+}
+
+.logo {
+  width: 35.61px; 
+  height: 35.66px; 
+  display: flex; /* Make it a flex container */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  opacity: 1; /* Changed to 1 for visibility */
+}
+
+.logo-image {
+  width: 100%; /* Adjust to fit container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo-text {
+  font-family: 'Inter', sans-serif; 
+  font-size: 36px; 
+  font-weight: 800; 
+  line-height: 43.57px; 
+  letter-spacing: 1px; 
+  text-align: center; /* Center text */
+  flex-grow: 1; /* Allow text to grow and occupy space */
+  text-align: center; /* Center the text */
+}
+
+.icon-container {
+  display: flex; /* Flex container for icons */
+  gap: 10px; /* Space between icons */
+}
+
+.icon {
+  width: 20px; 
+  height: 20px; 
+  opacity: 1; /* Changed to 1 for visibility */
+  cursor: pointer; /* Change cursor on hover */
+  padding-left: 10px;
+}
+
+/* Optional styles for hover effects */
+.icon:hover {
+  color: #5cb85c; /* Change color on hover */
+}

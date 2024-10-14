@@ -1,0 +1,66 @@
+/* Footer.css */
+
+.footer-container {
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Center items vertically */
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    padding: 20px; /* Add padding for spacing */
+    font-family: "Afacad Flux", sans-serif;
+  }
+  
+  .footer-left {
+    display: flex; /* Flexbox for vertical alignment */
+    flex-direction: column; /* Stack elements vertically */
+    color: white;
+    
+  }
+  
+  .footer-left h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Set font size for the heading */
+    margin-left: 40px;
+    font-weight: 700;
+  }
+  
+  .footer-left p {
+    margin: 5px 0; /* Add spacing between paragraphs */
+    margin-left: 30px;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .email-input {
+    padding: 10px; /* Add padding for input */
+    margin-top: 10px; /* Space above the input */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    margin-left: 30px;
+  }
+  
+  .footer-right {
+    text-align: right; /* Align text to the right */
+    color: white;
+  }
+  
+  .footer-right p {
+    margin: 5px 0; /* Add spacing between paragraphs */
+    color: white;
+    font-weight: 400;
+  }
+  
+  
+.copyright-container{
+    
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    padding: 20px; /* Add padding for spacing */
+    font-family: "Afacad Flux", sans-serif;
+}
+.footer-copyright {
+   
+    text-align: center; /* Center the copyright text */
+    color: white; /* Keep copyright text white */
+    width: 100%; /* Full width for the copyright text */
+}

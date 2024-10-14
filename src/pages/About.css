@@ -1,0 +1,66 @@
+/* About.css */
+
+.about-container {
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 20px auto; /* Center the container with margins */
+    padding: 20px; /* Add padding for inner spacing */
+    background-color: #f9f9f9; /* Light background for better readability */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem; /* Large font size for main heading */
+    color: #333; /* Dark color for better contrast */
+    margin-bottom: 15px; /* Space below the heading */
+  }
+  
+  .about-container h2 {
+    font-size: 1.8rem; /* Slightly smaller for subheadings */
+    color: #555; /* Medium gray for subheadings */
+    margin-top: 25px; /* Space above the subheading */
+    margin-bottom: 10px; /* Space below the subheading */
+  }
+  
+  .about-container p {
+    font-size: 1rem; /* Base font size for paragraphs */
+    line-height: 1.6; /* Increased line height for readability */
+    color: #666; /* Medium gray for paragraph text */
+    margin-bottom: 15px; /* Space below paragraphs */
+  }
+  
+  .about-container ul {
+    list-style-type: disc; /* Use disc bullets for the list */
+    padding-left: 20px; /* Indent the list */
+  }
+  
+  .about-container li {
+    margin-bottom: 10px; /* Space between list items */
+    font-size: 1rem; /* Font size for list items */
+    color: #444; /* Darker gray for list item text */
+  }
+  
+  .about-container strong {
+    color: #000; /* Black color for strong elements */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 15px; /* Reduce padding on smaller screens */
+    }
+  
+    .about-container h1 {
+      font-size: 2rem; /* Smaller heading for mobile */
+    }
+  
+    .about-container h2 {
+      font-size: 1.5rem; /* Smaller subheading for mobile */
+    }
+  
+    .about-container p,
+    .about-container li {
+      font-size: 0.9rem; /* Smaller font size for paragraphs and list items on mobile */
+    }
+  }
+  

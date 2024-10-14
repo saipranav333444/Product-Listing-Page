@@ -1,0 +1,98 @@
+/* Intro.css */
+
+/* Container styling */
+.intro-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically by default */
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto; /* Allow height to adjust for content */
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Heading styling */
+.intro-heading {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 3rem; /* Responsive size using rem */
+    font-weight: 400;
+    line-height: 1.5; /* Use relative line-height */
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    color: #000; /* Optional: Change color if needed */
+}
+
+/* Paragraph styling */
+.intro-paragraph {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 1.5rem; /* Base font size */
+    font-weight: 400;
+    line-height: 1.6; /* Use relative line-height */
+    text-align: center;
+    margin-top: 20px;
+    color: #000; /* Optional: Change color if needed */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    .intro-heading {
+        font-size: 2.3rem; /* Smaller heading for large tablets */
+    }
+
+    .intro-paragraph {
+        font-size: 0.9rem; /* Slightly smaller paragraph for large tablets */
+    }
+}
+
+@media (max-width: 992px) {
+    .intro-heading {
+        font-size: 2rem; /* Smaller heading for tablets */
+    }
+
+    .intro-paragraph {
+        font-size: 0.85rem; /* Smaller paragraph for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-heading {
+        font-size: 1.8rem; /* Smaller heading for small tablets and large phones */
+    }
+
+    .intro-paragraph {
+        font-size: 0.8rem; /* Smaller paragraph for small tablets and large phones */
+    }
+}
+
+@media (max-width: 576px) {
+    .intro-container {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .intro-heading {
+        font-size: 1.5rem; /* Smaller heading for phones */
+    }
+
+    .intro-paragraph {
+        font-size: 0.75rem; /* Smaller paragraph for phones */
+        margin-top: 15px; /* Reduce margin for smaller screens */
+    }
+}
+
+/* Additional media query to adjust paragraph layout */
+@media (max-width: 576px) {
+    .intro-container {
+        flex-direction: row; /* Change to row for smaller devices */
+        flex-wrap: wrap; /* Allow wrapping for paragraphs */
+        justify-content: space-around; /* Space out paragraphs */
+    }
+
+    .intro-paragraph {
+        flex: 1 1 45%; /* Allow paragraphs to take space side by side */
+        margin: 10px; /* Margin between paragraphs */
+        text-align: left; /* Change text alignment for readability */
+    }
+}

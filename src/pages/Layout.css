@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Simplon+Norm:wght@400&display=swap');
+
+/* Navigation Container */
+.nav-container {
+    width: 100vw;
+    height: auto; /* Adjust height to fit content */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space items evenly */
+    border-bottom: 1px solid black; /* Border bottom */
+    opacity: 1; /* Full visibility */
+    padding: 10px 20px; /* Padding for spacing */
+    box-sizing: border-box; /* Include padding in total width */
+}
+
+/* Navigation Link Styling */
+.nav-link {
+    font-family: "Afacad Flux", sans-serif; /* Fallback font */
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-decoration: none; /* No underline */
+    color: black;
+    transition: color 0.3s ease; /* Smooth hover transition */
+    
+}
+
+/* Hover Effect for Links */
+.nav-link:hover {
+    color: #5cb85c; /* Hover color */
+}
+
+/* Content Container */
+.content-container {
+    margin-top: 40px; /* Space between nav and content */
+    padding: 20px;
+     /* Max width for content */
+    margin-left: auto; /* Center content */
+    margin-right: auto; /* Center content */
+     /* Background color */
+    width: 100vw;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    .nav-link {
+        font-size: 18px; /* Smaller font size for larger tablets */
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-container {
+        flex-direction: column; /* Stack links vertically on small tablets */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .nav-link {
+        font-size: 16px; /* Smaller font size for tablets */
+        margin-bottom: 10px; /* Space between links */
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: 14px; /* Smaller font size for small tablets */
+    }
+
+    .nav-container {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-link {
+        font-size: 12px; /* Smaller font size for phones */
+    }
+
+    .nav-container {
+        padding: 5px; /* Further reduce padding for phones */
+    }
+}
+
+.separator {
+    border: none;         /* Remove default border */
+    border-top: 1px solid #ccc; /* Set the color and style of the line */
+    margin: 1rem 0;      /* Add some spacing above and below the line */
+  }
+  
