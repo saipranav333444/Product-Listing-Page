@@ -89,7 +89,7 @@ const SignIn = ({ setIsSignedIn }) => {
           required
         />
         <button style={styles.button} onClick={handleSignIn}>Sign In</button>
-        <h2>Dont have an account</h2>
+        <h2 style={styles.h2}>Dont have an account</h2>
         <button style={styles.button} onClick={handleSignUp}>Sign Up</button>
       </div>
     </div>
