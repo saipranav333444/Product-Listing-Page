@@ -37,6 +37,7 @@
     border: none; /* Remove border */
     border-radius: 5px; /* Rounded corners */
     margin-left: 30px;
+    font-family: "Afacad Flux", sans-serif;
   }
   
   .footer-right {
@@ -63,4 +64,18 @@
     text-align: center; /* Center the copyright text */
     color: white; /* Keep copyright text white */
     width: 100%; /* Full width for the copyright text */
+}
+
+.subscribe-button{
+  width: Fixed (184px)px;
+height: Fixed (48px)px;
+left: 400px;
+margin-left: 10px;
+border-radius: 5px 0px 0px 0px;
+border: 1.14px 0px 0px 0px;
+opacity: 0.3px;
+background-color: #000000;
+color: #ffffff;
+font-weight: 500;
+font-size: 18px;
 }

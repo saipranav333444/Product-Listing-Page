@@ -8,11 +8,15 @@ const Footer = () => {
         <div className="footer-left">
           <h2>Be the first to know</h2>
           <p>Sign up for updates from mettā muse.</p>
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="email-input"
-          />
+          {/* Updated input and button wrapped in a container */}
+          <div className="email-subscribe-container">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="email-input"
+            />
+            <button type="button" className="subscribe-button">Subscribe</button>
+          </div>
         </div>
         <div className="footer-right">
           <p>CONTACT US</p>
@@ -38,11 +42,12 @@ const Footer = () => {
           <p>Privacy Policy</p>
           <p>Terms & Conditions</p>
         </div>
-        {/* Copyright paragraph added within the footer container */}
-       
       </footer>
-      <div className='copyright-container'>
-      <p className="footer-copyright">Copyright © 2023 mettamuse. All rights reserved.</p>
+
+      <div className="copyright-container">
+        <p className="footer-copyright">
+          Copyright © 2023 mettamuse. All rights reserved.
+        </p>
       </div>
     </>
   );

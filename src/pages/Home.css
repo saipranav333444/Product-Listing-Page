@@ -177,24 +177,7 @@ button{
   font-family: "Afacad Flux", sans-serif;
 }
 
-.signout-button{
-  padding: 10px 20px; /* Vertical and horizontal padding */
-  background-color: #ff4c4c; /* Red background for visibility */
-  color: #fff; /* White text color */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  font-size: 16px; /* Font size */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  margin-right : 19px;
-}
 
-.signout-container{
-  display: flex;
-  justify-content: flex-end;
-
-}
 
 .sign-in-prompt {
   display: flex; /* Use flexbox for centering */

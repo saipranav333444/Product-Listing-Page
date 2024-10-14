@@ -25,10 +25,7 @@ const Home = () => {
     setIsSignedIn(signedInStatus === 'true');
   }, []);
 
-  const handleSignOut = () => {
-    localStorage.removeItem('isSignedIn');
-    navigate('/signin');
-  };
+
 
 
   useEffect(() => {
@@ -111,12 +108,7 @@ const Home = () => {
         <>
            <div>
             <Layout/>
-            <div className='signout-container'>
-              <div>
-              <button onClick={handleSignOut} className='signout-button'>Sign Out</button>
-              </div>
             
-            </div>
            
       {/* Filters and Sorting section above the container */}
       <div className="filters-sort-container">
